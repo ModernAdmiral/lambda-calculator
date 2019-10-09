@@ -4,10 +4,11 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 .display {
     margin-top: 25px;
+    margin-left: 20px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +20,50 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .button {
+      color: white;
+      border-radius: 50%;
+      border: none;
+      width: 90px;
+      height: 90px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 2rem;
+      box-shadow: 0 6px #322c2d;
+  }
+
+  .numberButton {
+      background-color: rgb(34, 67, 117)
+  }
+
+  .operatorButton {
+      background-color: rgb(58, 113, 144);
+  }
+
+  .specialButton {
+      background-color: rgb(48, 93, 153);
+  }
+
+  .buttonsContainer {
+      display: flex;
+      margin-left: 40px;
+  }
+
+  .specialsContainer {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .leftContainer {
+      width: 340px;
+  }
+  
+  .operatorsContainer {
+      width: 110px;
+  }
+
+  .logoContainer {
+      margin-left: 20px;
   }
